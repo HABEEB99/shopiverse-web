@@ -6,7 +6,7 @@ import {
 
 const Hero = () => {
   return (
-    <div className="flex flex-col md:flex-row items-center justify-between my-4">
+    <div className="flex flex-col md:flex-row items-center justify-between my-4 gap-4">
       <HeroLeftContent />
       <HeroMainContent />
       <HeroRightContent />
