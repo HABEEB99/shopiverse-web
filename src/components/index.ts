@@ -1,3 +1,4 @@
+import Footer from "@/components/footer";
 import Header from "@/components/header";
 import Hero from "@/components/hero";
 import HeroLeftContent from "@/components/hero/hero-left-content";
@@ -12,6 +13,7 @@ import ThemeProvider from "@/components/theme-provider";
 import ThemeSwitcher from "@/components/theme-switcher";
 
 export {
+  Footer,
   Header,
   Hero,
   HeroLeftContent,
