@@ -9,6 +9,7 @@ import Logo from "@/components/logo";
 import RegisterForm from "@/components/forms/register-form";
 import Sale from "@/components/sale";
 import { UserSettings } from "@/components/user-settings";
+import Testimonials from "@/components/testimonials";
 import ThemeProvider from "@/components/theme-provider";
 import ThemeSwitcher from "@/components/theme-switcher";
 
@@ -24,6 +25,7 @@ export {
   RegisterForm,
   Sale,
   UserSettings,
+  Testimonials,
   ThemeProvider,
   ThemeSwitcher,
 };
