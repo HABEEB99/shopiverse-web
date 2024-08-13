@@ -9,6 +9,7 @@ import Logo from "@/components/logo";
 import Newsletter from "@/components/newsletter";
 import RegisterForm from "@/components/forms/register-form";
 import Sale from "@/components/sale";
+import SearchBar from "@/components/search-bar";
 import { UserSettings } from "@/components/user-settings";
 import Testimonials from "@/components/testimonials";
 import ThemeProvider from "@/components/theme-provider";
@@ -26,6 +27,7 @@ export {
   Newsletter,
   RegisterForm,
   Sale,
+  SearchBar,
   UserSettings,
   Testimonials,
   ThemeProvider,
