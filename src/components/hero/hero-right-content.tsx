@@ -1,7 +1,14 @@
+import Image from "next/image";
+
 const HeroRightContent = () => {
   return (
-    <div className="flex flex-col items-center justify-center space-y-5 p-3 h-[70vh] w-60 shadow-sm bg-light/25 rounded-md">
-      Adverts
+    <div className="relative flex h-[70vh] w-60 flex-col items-center justify-center space-y-5 overflow-hidden rounded-md bg-light/25 p-3 shadow-sm">
+      <Image
+        src="/adverts.jpg"
+        alt="Adverts"
+        fill
+        className="h-full w-full object-cover"
+      />
     </div>
   );
 };
