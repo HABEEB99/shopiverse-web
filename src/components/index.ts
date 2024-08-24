@@ -14,6 +14,7 @@ import { UserSettings } from "@/components/user-settings";
 import Testimonials from "@/components/testimonials";
 import ThemeProvider from "@/components/theme-provider";
 import ThemeSwitcher from "@/components/theme-switcher";
+import TopProducts from "@/components/top-products";
 
 export {
   Footer,
@@ -32,4 +33,5 @@ export {
   Testimonials,
   ThemeProvider,
   ThemeSwitcher,
+  TopProducts,
 };
