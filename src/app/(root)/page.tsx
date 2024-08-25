@@ -1,4 +1,5 @@
 import {
+  Faq,
   Hero,
   Newsletter,
   Sale,
@@ -14,6 +15,7 @@ export default function Home() {
       <TopProducts />
       <Testimonials />
       <Newsletter />
+      <Faq />
     </main>
   );
 }

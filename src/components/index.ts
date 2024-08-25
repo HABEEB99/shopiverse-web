@@ -1,3 +1,4 @@
+import Faq from "@/components/faq";
 import Footer from "@/components/footer";
 import Header from "@/components/header";
 import Hero from "@/components/hero";
@@ -17,6 +18,7 @@ import ThemeSwitcher from "@/components/theme-switcher";
 import TopProducts from "@/components/top-products";
 
 export {
+  Faq,
   Footer,
   Header,
   Hero,
